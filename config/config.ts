@@ -33,6 +33,12 @@ export default defineConfig({
           path: '/user/login',
           component: './user/login',
         },
+        {
+          name: '注册页',
+          icon: 'smile',
+          path: '/user/userregister',
+          component: './UserRegister',
+        },
       ],
     },
     {
@@ -69,6 +75,12 @@ export default defineConfig({
                   authority: ['admin'],
                 },
               ],
+            },
+            {
+              name: '查询表格',
+              icon: 'smile',
+              path: '/listtablelist',
+              component: './ListTableListTwo',
             },
             {
               name: 'list.table-list',
