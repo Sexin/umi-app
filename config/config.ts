@@ -59,6 +59,14 @@ export default defineConfig({
               name: 'welcome',
               icon: 'smile',
               component: './Welcome',
+              routes: [
+                {
+                  path: '/welcome/welcome',
+                  name: 'two',
+                  exact: true,
+                  component: './ListTableListTwo'
+                },
+              ],
             },
             {
               path: '/admin',

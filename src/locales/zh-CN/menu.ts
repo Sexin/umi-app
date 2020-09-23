@@ -1,5 +1,6 @@
 export default {
   'menu.welcome': '欢迎',
+  'menu.welcome.two': '欢迎2',
   'menu.查询表格': '查询表格',
   'menu.空白页面': '空白页面',
   'menu.基础表单': '基础表单',
